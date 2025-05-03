@@ -14,7 +14,7 @@ public class BolivianoBoliviano {
     public void converterBolivianoBolivianoDolar (){
         System.out.println("Digite quanto quer converter: ");
         montante = leitura.nextLine();
-        URI moeda = URI.create(" https://v6.exchangerate-api.com/v6/be4ffb60db4051aeb794b8d9/pair/BOB/USD " + montante);
+        URI moeda = URI.create(" https://v6.exchangerate-api.com/v6/be4ffb60db4051aeb794b8d9/par/BOB/USD " + montante);
 
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(URI.create(String.valueOf(moeda)))
@@ -34,7 +34,7 @@ public class BolivianoBoliviano {
     public void converterBolivianoBolivianoReal(){
         System.out.println("Digite quanto quer converter: ");
         montante = leitura.nextLine();
-        URI moeda = URI.create("https://v6.exchangerate-api.com/v6/be4ffb60db4051aeb794b8d9/pair/BOB/BRL " + montante);
+        URI moeda = URI.create("https://v6.exchangerate-api.com/v6/be4ffb60db4051aeb794b8d9/par/BOB/BRL " + montante);
 
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(URI.create(String.valueOf(moeda)))
@@ -54,7 +54,7 @@ public class BolivianoBoliviano {
     public void converterBolivianoBolivianoPesoArgentino (){
         System.out.println("Digite quanto quer converter: ");
         montante = leitura.nextLine();
-        URI moeda = URI.create(" https://v6.exchangerate-api.com/v6/be4ffb60db4051aeb794b8d9/pair/BOB/ARS " + montante);
+        URI moeda = URI.create(" https://v6.exchangerate-api.com/v6/be4ffb60db4051aeb794b8d9/par/BOB/ARS " + montante);
 
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(URI.create(String.valueOf(moeda)))
@@ -74,7 +74,7 @@ public class BolivianoBoliviano {
     public void converterBolivianoBolivianoPesoColombiano (){
         System.out.println("Digite quanto quer converter: ");
         montante = leitura.nextLine();
-        URI moeda = URI.create(" https://v6.exchangerate-api.com/v6/be4ffb60db4051aeb794b8d9/pair/BOB/COP " + montante);
+        URI moeda = URI.create(" https://v6.exchangerate-api.com/v6/be4ffb60db4051aeb794b8d9/par/BOB/COP " + montante);
 
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(URI.create(String.valueOf(moeda)))
@@ -94,7 +94,7 @@ public class BolivianoBoliviano {
     public void converterBolivianoBolivianoPesoChileno (){
         System.out.println("Digite quanto quer converter: ");
         montante = leitura.nextLine();
-        URI moeda = URI.create(" https://v6.exchangerate-api.com/v6/be4ffb60db4051aeb794b8d9/pair/BOB/CLP " + montante);
+        URI moeda = URI.create(" https://v6.exchangerate-api.com/v6/be4ffb60db4051aeb794b8d9/par/BOB/CLP " + montante);
 
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(URI.create(String.valueOf(moeda)))
