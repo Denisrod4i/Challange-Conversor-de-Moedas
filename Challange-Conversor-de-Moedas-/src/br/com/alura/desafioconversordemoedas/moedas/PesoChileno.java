@@ -14,7 +14,7 @@ public class PesoChileno {
     public void converterPesoChilenoPesoArgentino (){
         System.out.println("Digite quanto quer converter: ");
         montante = leitura.nextLine();
-        URI moeda = URI.create(" https://v6.exchangerate-api.com/v6/be4ffb60db4051aeb794b8d9/pair/CLP/ARS " + montante);
+        URI moeda = URI.create(" https://v6.exchangerate-api.com/v6/be4ffb60db4051aeb794b8d9/par/CLP/ARS " + montante);
 
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(URI.create(String.valueOf(moeda)))
@@ -34,7 +34,7 @@ public class PesoChileno {
     public void converterPesoChilenoReal (){
         System.out.println("Digite quanto quer converter: ");
         montante = leitura.nextLine();
-        URI moeda = URI.create(" https://v6.exchangerate-api.com/v6/be4ffb60db4051aeb794b8d9/pair/CLP/BRL " + montante);
+        URI moeda = URI.create(" https://v6.exchangerate-api.com/v6/be4ffb60db4051aeb794b8d9/par/CLP/BRL " + montante);
 
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(URI.create(String.valueOf(moeda)))
@@ -54,7 +54,7 @@ public class PesoChileno {
     public void converterPesoChilenoPesoColombiano (){
         System.out.println("Digite quanto quer converter: ");
         montante = leitura.nextLine();
-        URI moeda = URI.create(" https://v6.exchangerate-api.com/v6/be4ffb60db4051aeb794b8d9/pair/CLP/COP " + montante);
+        URI moeda = URI.create(" https://v6.exchangerate-api.com/v6/be4ffb60db4051aeb794b8d9/par/CLP/COP " + montante);
 
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(URI.create(String.valueOf(moeda)))
@@ -74,7 +74,7 @@ public class PesoChileno {
     public void converterPesoChilenoDolar () {
         System.out.println("Digite quanto quer converter: ");
         montante = leitura.nextLine();
-        URI moeda = URI.create(" https://v6.exchangerate-api.com/v6/be4ffb60db4051aeb794b8d9/pair/CLP/USD " + montante);
+        URI moeda = URI.create(" https://v6.exchangerate-api.com/v6/be4ffb60db4051aeb794b8d9/par/CLP/USD " + montante);
 
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(URI.create(String.valueOf(moeda)))
@@ -94,7 +94,7 @@ public class PesoChileno {
     public void converterPesoChilenoBolivianoBoliviano () {
         System.out.println("Digite quanto quer converter: ");
         montante = leitura.nextLine();
-        URI moeda = URI.create(" https://v6.exchangerate-api.com/v6/be4ffb60db4051aeb794b8d9/pair/CLP/BOB " + montante);
+        URI moeda = URI.create(" https://v6.exchangerate-api.com/v6/be4ffb60db4051aeb794b8d9/par/CLP/BOB " + montante);
 
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(URI.create(String.valueOf(moeda)))
