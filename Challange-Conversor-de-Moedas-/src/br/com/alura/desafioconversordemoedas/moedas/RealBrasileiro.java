@@ -14,7 +14,7 @@ public class RealBrasileiro {
     public void converterRealPesoArgentino (){
         System.out.println("Digite quanto quer converter: ");
         montante = leitura.nextLine();
-        URI moeda = URI.create(" https://v6.exchangerate-api.com/v6/be4ffb60db4051aeb794b8d9/pair/BRL/ARS " + montante);
+        URI moeda = URI.create(" https://v6.exchangerate-api.com/v6/be4ffb60db4051aeb794b8d9/par/BRL/ARS " + montante);
 
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(URI.create(String.valueOf(moeda)))
@@ -34,7 +34,7 @@ public class RealBrasileiro {
     public void converterRealDolar (){
         System.out.println("Digite quanto quer converter: ");
         montante = leitura.nextLine();
-        URI moeda = URI.create(" https://v6.exchangerate-api.com/v6/be4ffb60db4051aeb794b8d9/pair/BRL/USD " + montante);
+        URI moeda = URI.create(" https://v6.exchangerate-api.com/v6/be4ffb60db4051aeb794b8d9/par/BRL/USD " + montante);
 
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(URI.create(String.valueOf(moeda)))
@@ -54,7 +54,7 @@ public class RealBrasileiro {
     public void converterRealBolivianoBoliviano (){
         System.out.println("Digite quanto quer converter: ");
         montante = leitura.nextLine();
-        URI moeda = URI.create(" https://v6.exchangerate-api.com/v6/be4ffb60db4051aeb794b8d9/pair/BRL/BOB " + montante);
+        URI moeda = URI.create(" https://v6.exchangerate-api.com/v6/be4ffb60db4051aeb794b8d9/par/BRL/BOB " + montante);
 
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(URI.create(String.valueOf(moeda)))
@@ -74,7 +74,7 @@ public class RealBrasileiro {
     public void converterRealPesoColombiano (){
         System.out.println("Digite quanto quer converter: ");
         montante = leitura.nextLine();
-        URI moeda = URI.create(" https://v6.exchangerate-api.com/v6/be4ffb60db4051aeb794b8d9/pair/BRL/COP " + montante);
+        URI moeda = URI.create(" https://v6.exchangerate-api.com/v6/be4ffb60db4051aeb794b8d9/par/BRL/COP " + montante);
 
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(URI.create(String.valueOf(moeda)))
@@ -94,7 +94,7 @@ public class RealBrasileiro {
     public void converterRealPesoChileno (){
         System.out.println("Digite quanto quer converter: ");
         montante = leitura.nextLine();
-        URI moeda = URI.create(" https://v6.exchangerate-api.com/v6/be4ffb60db4051aeb794b8d9/pair/BRL/CLP " + montante);
+        URI moeda = URI.create(" https://v6.exchangerate-api.com/v6/be4ffb60db4051aeb794b8d9/par/BRL/CLP " + montante);
 
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(URI.create(String.valueOf(moeda)))
