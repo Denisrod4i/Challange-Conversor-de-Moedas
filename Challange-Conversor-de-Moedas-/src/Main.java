@@ -55,7 +55,7 @@ public class Main {
                 """;
 
 
-        while (opcao != 31) {
+        while (opcao != 30) {
             System.out.println(menuOpcoes);
             opcao = leitura.nextInt();
             switch (opcao){
